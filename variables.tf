@@ -1,7 +1,6 @@
 variable "create" {
   description = "Controls if EKS resources should be created (affects nearly all resources)"
   type        = bool
-  default     = true
 }
 
 variable "tags" {
